@@ -1,0 +1,2 @@
+commit-msg:  # 只保留一个提交消息检查
+  - dart run git_hooks.dart  # 使用我们自定义的检查

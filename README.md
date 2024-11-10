@@ -1,4 +1,4 @@
-# hula_app
+# HuLa-App
 
 A new Flutter project.
 

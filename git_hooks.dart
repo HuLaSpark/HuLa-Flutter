@@ -19,7 +19,8 @@ Future<bool> commitMsg() async {
   } else {
     print('\x1B[31m提交信息不符合规范！\x1B[0m');
     print('正确格式: type:subject 或 type: subject');
-    print('type 必须是以下之一: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert');
+    print(
+        'type 必须是以下之一: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert');
     print('示例: feat:添加登录功能');
     print('示例: fix: 修复token过期问题');
     return false;
